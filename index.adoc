@@ -1,0 +1,21 @@
+= Sylt
+
+Sylt is a statically checked and dynamically typed programming language made
+for game jams. Working in Sylt should be a pain- and fearless experience. If it
+isn't, please file an
+https://github.com/FredTheDino/sylt-lang/issues/new/choose[issue].
+
+Everyone likes example code, so here is some:
+
+[source, sylt]
+----
+start :: fn do              // <1>
+    print("Hello, world!")  // <2>
+end
+----
+
+<1> Define the program entry point
+<2> Do the thing
+
+For more information, check out the link:quick-reference.html[Quick Reference]
+or the link:guide.html[Guide]
